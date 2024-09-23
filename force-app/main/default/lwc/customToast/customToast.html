@@ -1,0 +1,39 @@
+<!--
+ * Composant LWC permettant d'afficher un Toast Notification dont on peut :
+ * - personnaliser le contenu de manière poussée ;
+ * - gérer l'affichage précisément.
+ *
+ * @author				: Louise Delbecque
+ * @created on			: 20-09-2024 11:52:28
+ * @last modified on	: 20-09-2024 13:00:06
+ * @last modified by	: Louise Delbecque
+ -->
+
+<template>
+
+    <template lwc:if={isVisible}>
+            <div class="centered-container">
+                <div class="centered-content">
+                    <div class={classNames} role="status">
+                        <span class="slds-assistive-text">{error}</span>
+                        <span class="slds-icon_container slds-icon-utility-error slds-m-right_small slds-no-flex slds-align-top" title={toastType}>
+                            <lightning-icon icon-name={iconName} variant="inverse" title="Event"></lightning-icon>
+                        </span>
+                        <div class="slds-notify__content">
+                            <h2 class="slds-text-heading_small">{title}</h2>
+                            <p>{details}</p>
+                        </div>
+                        <div class="slds-notify__close">
+                            <lightning-button-icon
+                                icon-name="utility:close" alternative-text="Close toast notif" variant="bare-inverse" size="small" onclick={handleClose}
+                                
+                            ></lightning-button-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </template>
+    
+
+    
+</template>
