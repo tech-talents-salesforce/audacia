@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>G_n_rer_la_facture</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Générer la facture</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+sforce.apex.execute(&quot;FactureUsingJunctionObject&quot;,&quot;RefreshInvoiceForPartner&quot;,{recordId:&quot;{!Account.Id}&quot;,x:1}); 
+location.reload(true);</url>
+</WebLink>

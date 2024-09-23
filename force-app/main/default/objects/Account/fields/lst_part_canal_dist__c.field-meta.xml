@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lst_part_canal_dist__c</fullName>
+    <label>Canaux de distribution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Réseau</fullName>
+                <default>false</default>
+                <label>Réseau</label>
+            </value>
+            <value>
+                <fullName>Plateforme</fullName>
+                <default>false</default>
+                <label>Plateforme</label>
+            </value>
+            <value>
+                <fullName>BP</fullName>
+                <default>false</default>
+                <label>BP</label>
+            </value>
+            <value>
+                <fullName>SGP</fullName>
+                <default>false</default>
+                <label>SGP</label>
+            </value>
+            <value>
+                <fullName>Groupement</fullName>
+                <default>false</default>
+                <label>Groupement</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>CGPI</fullName>
+                <default>false</default>
+                <label>CGPI</label>
+            </value>
+            <value>
+                <fullName>Grand cabinet</fullName>
+                <default>false</default>
+                <label>Grand cabinet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

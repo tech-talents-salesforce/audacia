@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ajouter_un_logo</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Ajouter un logo</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.open(&apos;/apex/AttachementUploadLogo?id={!Account.Id}&apos;,&apos;_blank&apos;,&apos;resizable=no, location=no, width=700, height=500, menubar=no, status=no, scrollbars=no, menubar=no&apos;);</url>
+</WebLink>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>id_audacia__c</fullName>
+    <description>Auto-incrément Salesforce pour Audacia.
+Démarrage à 10000</description>
+    <displayFormat>CPT-{00000000}</displayFormat>
+    <externalId>true</externalId>
+    <label>Identifiant Audacia</label>
+    <type>AutoNumber</type>
+</CustomField>

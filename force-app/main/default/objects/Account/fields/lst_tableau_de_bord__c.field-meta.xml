@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lst_tableau_de_bord__c</fullName>
+    <label>Tableau de bord</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Option</fullName>
+                <default>false</default>
+                <label>Option</label>
+            </value>
+            <value>
+                <fullName>DPME</fullName>
+                <default>true</default>
+                <label>DPME</label>
+            </value>
+            <value>
+                <fullName>Option ET DPME</fullName>
+                <default>false</default>
+                <label>Option ET DPME</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

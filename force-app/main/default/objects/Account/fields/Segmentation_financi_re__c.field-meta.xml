@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentation_financi_re__c</fullName>
+    <label>Segmentation financière</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Code des assurances</fullName>
+                <default>false</default>
+                <label>Code des assurances</label>
+            </value>
+            <value>
+                <fullName>Code de la sécurité sociale</fullName>
+                <default>false</default>
+                <label>Code de la sécurité sociale</label>
+            </value>
+            <value>
+                <fullName>Code de la mutualité</fullName>
+                <default>false</default>
+                <label>Code de la mutualité</label>
+            </value>
+            <value>
+                <fullName>Règlement AGIRC-ARCO</fullName>
+                <default>false</default>
+                <label>Règlement AGIRC-ARCO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

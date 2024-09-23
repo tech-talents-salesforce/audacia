@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mtt_derniere_valeur_action__c</fullName>
+    <description>Dernière valorisation sur un exercice de l&apos;entreprise</description>
+    <label>Dernière valorisation d&apos;action</label>
+    <summarizedField>Exercice__c.mtt_action_nette__c</summarizedField>
+    <summaryFilterItems>
+        <field>Exercice__c.is_derniere_valorisation__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Exercice__c.id_account_entreprise__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <type>Summary</type>
+</CustomField>

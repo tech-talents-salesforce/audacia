@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etat__c</fullName>
+    <label>Etat</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actif</fullName>
+                <default>true</default>
+                <label>Actif</label>
+            </value>
+            <value>
+                <fullName>Redressement Judiciaire</fullName>
+                <default>false</default>
+                <label>Redressement Judiciaire</label>
+            </value>
+            <value>
+                <fullName>Sauvegarde</fullName>
+                <default>false</default>
+                <label>Sauvegarde</label>
+            </value>
+            <value>
+                <fullName>Mandat ad hoc</fullName>
+                <default>false</default>
+                <label>Mandat ad hoc</label>
+            </value>
+            <value>
+                <fullName>Liquidation Judiciaire</fullName>
+                <default>false</default>
+                <label>Liquidation Judiciaire</label>
+            </value>
+            <value>
+                <fullName>Procédure collective en cours</fullName>
+                <default>false</default>
+                <label>Procédure collective en cours</label>
+            </value>
+            <value>
+                <fullName>Cession pour 1€ symbolique</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cession pour 1€ symbolique</label>
+            </value>
+            <value>
+                <fullName>Cédé</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cédé</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

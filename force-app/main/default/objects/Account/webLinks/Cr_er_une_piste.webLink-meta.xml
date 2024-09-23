@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cr_er_une_piste</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Créer une piste</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/lightning/o/Lead/new?defaultFieldValues=
+Company={!Account.Name}&amp;
+Street={!Account.BillingStreet}&amp;
+City={!Account.BillingCity}&amp;
+PostalCode={!Account.BillingPostalCode}&amp;
+Country={!Account.BillingCountry}&amp;
+Email={!Contact.Email}&amp;
+Phone={!Contact.MobilePhone}&amp;
+FirstName={!Contact.FirstName} &amp;
+LastName={!Contact.LastName} &amp;
+Status=Prospect%20froid&amp;
+Priorit__c=Classique&amp;
+saveURL=%2F{!Account.Id}</url>
+</WebLink>

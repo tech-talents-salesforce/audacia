@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>id_unifie__c</fullName>
+    <description>Unifie l&apos;identifiant Bosar s&apos;il existait avec l&apos;identifiant Audacia si pas d&apos;identifiant Bosar</description>
+    <externalId>false</externalId>
+    <formula>value(IF(OR(ISNULL(id_bosar__c ),id_bosar__c &lt;1) , right(id_audacia__c,8) , text(id_bosar__c)))</formula>
+    <label>Identifiant unifié</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

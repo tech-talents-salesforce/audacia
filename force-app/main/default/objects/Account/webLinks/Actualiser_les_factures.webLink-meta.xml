@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actualiser_les_factures</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Actualiser les factures</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+var ids = {!GETRECORDIDS($ObjectType.Pro_Format_New__c)}; 
+if(ids.length&lt;6){ 
+var JSONString = JSON.stringify(ids); 
+sforce.apex.execute(&quot;FactureUsingJunctionObject&quot;,&quot;RefreshInvoicesForPartnerList&quot;,{partnersIds:JSONString,x:1}); 
+alert(&apos;Traitement Terminé.&apos;); 
+location.reload(true); 
+}else{ 
+alert(&apos;Vous ne devez cocher que 6 factures à la limite&apos;); 
+}</url>
+</WebLink>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sous_secteur_1__c</fullName>
+    <inlineHelpText>Choisi le sous-secteur d&apos;activité. Demander au responsable SF si besoin d&apos;une nouvelle valeur.</inlineHelpText>
+    <label>Sous/secteur 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alimentation biologique</fullName>
+                <default>false</default>
+                <label>Alimentation biologique</label>
+            </value>
+            <value>
+                <fullName>Alimentation traditionnelle</fullName>
+                <default>false</default>
+                <label>Alimentation traditionnelle</label>
+            </value>
+            <value>
+                <fullName>Artisanat</fullName>
+                <default>false</default>
+                <label>Artisanat</label>
+            </value>
+            <value>
+                <fullName>Automobile / Aéronautique</fullName>
+                <default>false</default>
+                <label>Automobile / Aéronautique</label>
+            </value>
+            <value>
+                <fullName>Boulangerie</fullName>
+                <default>false</default>
+                <label>Boulangerie</label>
+            </value>
+            <value>
+                <fullName>Cabinet de conseil</fullName>
+                <default>false</default>
+                <label>Cabinet de conseil</label>
+            </value>
+            <value>
+                <fullName>Culture / Médias</fullName>
+                <default>false</default>
+                <label>Culture / Médias</label>
+            </value>
+            <value>
+                <fullName>Distribution alimentaire</fullName>
+                <default>false</default>
+                <label>Distribution alimentaire</label>
+            </value>
+            <value>
+                <fullName>Fabrication / Distribution</fullName>
+                <default>false</default>
+                <label>Fabrication / Distribution</label>
+            </value>
+            <value>
+                <fullName>FDC - Paris</fullName>
+                <default>false</default>
+                <label>FDC - Paris</label>
+            </value>
+            <value>
+                <fullName>FDC - Province</fullName>
+                <default>false</default>
+                <label>FDC - Province</label>
+            </value>
+            <value>
+                <fullName>Formation</fullName>
+                <default>false</default>
+                <label>Formation</label>
+            </value>
+            <value>
+                <fullName>Informatique</fullName>
+                <default>false</default>
+                <label>Informatique</label>
+            </value>
+            <value>
+                <fullName>Matériel</fullName>
+                <default>false</default>
+                <label>Matériel</label>
+            </value>
+            <value>
+                <fullName>Mobilier</fullName>
+                <default>false</default>
+                <label>Mobilier</label>
+            </value>
+            <value>
+                <fullName>Murs et fonds - Paris</fullName>
+                <default>false</default>
+                <label>Murs et fonds - Paris</label>
+            </value>
+            <value>
+                <fullName>Murs et fonds - Province</fullName>
+                <default>false</default>
+                <label>Murs et fonds - Province</label>
+            </value>
+            <value>
+                <fullName>Nettoyage / Environnement</fullName>
+                <default>false</default>
+                <label>Nettoyage / Environnement</label>
+            </value>
+            <value>
+                <fullName>Prêt à porter</fullName>
+                <default>false</default>
+                <label>Prêt à porter</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Restaurant - Paris</fullName>
+                <default>false</default>
+                <label>Restaurant - Paris</label>
+            </value>
+            <value>
+                <fullName>Restaurant - Province</fullName>
+                <default>false</default>
+                <label>Restaurant - Province</label>
+            </value>
+            <value>
+                <fullName>Santé</fullName>
+                <default>false</default>
+                <label>Santé</label>
+            </value>
+            <value>
+                <fullName>Service à la personne</fullName>
+                <default>false</default>
+                <label>Service à la personne</label>
+            </value>
+            <value>
+                <fullName>Soin / Beauté</fullName>
+                <default>false</default>
+                <label>Soin / Beauté</label>
+            </value>
+            <value>
+                <fullName>Sport</fullName>
+                <default>false</default>
+                <label>Sport</label>
+            </value>
+            <value>
+                <fullName>Télécommunication</fullName>
+                <default>false</default>
+                <label>Télécommunication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

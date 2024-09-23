@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B_n_ficiaire_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Bénéficiaire 2</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Personnes morales (Bénéficiaire 2)</relationshipLabel>
+    <relationshipName>Investisseur</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

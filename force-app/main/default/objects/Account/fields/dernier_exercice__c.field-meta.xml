@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dernier_exercice__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <inlineHelpText>Ce champ va chercher le dernier exercice renseigné, soit celui qui a la case &quot;dernier exercice&quot; cochée</inlineHelpText>
+    <label>Dernier Exercice</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Exercice__c.is_derniere_valorisation__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Exercice__c.id_account_entreprise__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Id</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Exercice__c</referenceTo>
+    <relationshipLabel>Comptes</relationshipLabel>
+    <relationshipName>Comptes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

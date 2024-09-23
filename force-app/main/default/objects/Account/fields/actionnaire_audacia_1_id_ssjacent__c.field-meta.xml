@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>actionnaire_audacia_1_id_ssjacent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Sous-jacent (1)</label>
+    <referenceTo>Sous_Jacent__c</referenceTo>
+    <relationshipLabel>Comptes</relationshipLabel>
+    <relationshipName>Comptes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

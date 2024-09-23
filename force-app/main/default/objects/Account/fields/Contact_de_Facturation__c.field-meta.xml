@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_de_Facturation__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Contact de Facturation</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <errorMessage>La valeur n&apos;existe pas ou ne correspond pas aux critères de filtre.
+Le contact doit avoir une adresse mail valide.</errorMessage>
+        <filterItems>
+            <field>Contact.Email</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <filterItems>
+            <field>$User.Alias</field>
+            <operation>equals</operation>
+            <value>cdele</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Comptes (Contact de Facturation)</relationshipLabel>
+    <relationshipName>Comptes1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

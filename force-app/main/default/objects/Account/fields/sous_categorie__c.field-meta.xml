@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sous_categorie__c</fullName>
+    <label>Sous-catégorie</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>lst_categorie__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Groupement</fullName>
+                <default>false</default>
+                <label>Groupement</label>
+            </value>
+            <value>
+                <fullName>Plateforme</fullName>
+                <default>false</default>
+                <label>Plateforme Distribution</label>
+            </value>
+            <value>
+                <fullName>CGP Indépendant</fullName>
+                <default>false</default>
+                <label>CGP Indépendant</label>
+            </value>
+            <value>
+                <fullName>Multi Family Office</fullName>
+                <default>false</default>
+                <label>Multi Family Office</label>
+            </value>
+            <value>
+                <fullName>Banque privée</fullName>
+                <default>false</default>
+                <label>Banque privée</label>
+            </value>
+            <value>
+                <fullName>Banque commerciale</fullName>
+                <default>false</default>
+                <label>Banque commerciale</label>
+            </value>
+            <value>
+                <fullName>Assureur Vie</fullName>
+                <default>false</default>
+                <label>Assureur Vie</label>
+            </value>
+            <value>
+                <fullName>Mutuelle</fullName>
+                <default>false</default>
+                <label>Mutuelle</label>
+            </value>
+            <value>
+                <fullName>Indépendant/multi-family office</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Indépendant/multi-family office</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Banque</controllingFieldValue>
+            <valueName>Banque privée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banque</controllingFieldValue>
+            <valueName>Banque commerciale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CGP</controllingFieldValue>
+            <valueName>Groupement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CGP</controllingFieldValue>
+            <valueName>CGP Indépendant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CGP</controllingFieldValue>
+            <valueName>Multi Family Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assureur</controllingFieldValue>
+            <valueName>Plateforme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assureur</controllingFieldValue>
+            <valueName>Assureur Vie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assureur</controllingFieldValue>
+            <valueName>Mutuelle</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
