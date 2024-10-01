@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : Etienne Gaudry
+  @group             : 
+  @last modified on  : 09-09-2024
+  @last modified by  : Etienne Gaudry
+-->
+<template>
+    <div class="custom-textarea-container">
+        <label for="comment">Commentaire</label>
+        <lightning-textarea
+            id="comment"
+            class="custom-textarea"
+            value={commentValue}
+            placeholder="Entrez votre commentaire ici"
+            onchange={handleInputChange}
+        ></lightning-textarea>
+    </div>
+</template>

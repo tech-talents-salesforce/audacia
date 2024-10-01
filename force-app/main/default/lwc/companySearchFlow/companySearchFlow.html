@@ -1,0 +1,30 @@
+<!--
+  @description       : 
+  @author            : Etienne Gaudry
+  @group             : 
+  @last modified on  : 09-09-2024
+  @last modified by  : Etienne Gaudry
+-->
+<template>
+    <lightning-input
+        type="text"
+        label="Société"
+        value={companyName}
+        onchange={handleInputChange}
+        placeholder="Entrez le nom de la société"
+        class="slds-m-bottom_medium"
+    >
+    </lightning-input>
+
+    <template if:true={accounts.length}>
+        <lightning-combobox
+            label="Suggestions de Personnes Morales"
+            value={selectedAccountId}
+            placeholder="Sélectionnez une Personne Morale"
+            options={accountOptions}
+            onchange={handleAccountSelection}
+            class="slds-m-bottom_medium"
+        >
+        </lightning-combobox>
+    </template>
+</template>
